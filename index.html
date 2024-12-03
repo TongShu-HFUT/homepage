@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <table id="main"><tbody><tr><td>
+    <table id="main"><tbody><td><td>
     <table width="80%" cellspacing="0" cellpadding="20" border="0" align="center"><tbody><tr><td width="78%">
       <table><tbody>
       <!-- Content Begin -->
@@ -43,7 +43,7 @@
                 <i class="fa fa-envelope-o"></i> Email: <a href="mailto:t.shu@mail.hfut.edu.cn">t.shu@mail.hfut.edu.cn</a><br>
                 <i class="fa fa-github"></i> Github: <a href="https://github.com/TongShu-HFUT" target="_blank">github.com/TongShu-HFUT</a><br>
                 <i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID: <a href="https://orcid.org/0009-0005-2820-3875" target="_blank">0009-0005-2820-3875</a><br>
-				<i class="fa fa-file-pdf-o"></i> CV: <a href="pdf/TongShu_CV_202409.pdf" target="_blank"> Curriculum Vitae </a>
+				<i class="fa fa-file-pdf-o"></i> CV: <a href="pdf/TongShu_CV_202411.pdf" target="_blank"> Curriculum Vitae </a>
               </p>
                 </a>
               </p>
@@ -97,138 +97,175 @@
 
         <tr><td> <h2>Publications</h2> </td></tr>
         <tr><td> <!-- ALL Paper Begin Here -->
-          <tr><td> <h3>2024</h3> </td></tr>
-          <table class="group_tab"><tbody>
+            <table class="group_tab"><tbody>
+            <tr><td> <h3>2024</h3> </td></tr>
             <tr> <!-- An Paper -->
-              <td width="22%" valign="top"><p>
-                <img src="images/src/article_shu_miccai_2024.png" alt="Result" width="200">
-              </p></td>
-              <td width="78%" valign="top">
-              <p>
-                  <b>SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification</b> <a href="https://arxiv.org/abs/2407.08968" target="_blank"><i class="fa fa-external-link"></i></a>
-                  <br>
-                  <font size="3pt" face="Georgia"><i>
-                    <b>Tong Shu</b>, Jun Shi, Dongdong Sun, Zhiguo Jiang, and Yushan Zheng*</a>
-                  </i></font>
-                  <br>
-                   Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024
-                  <br>
-                  <i class="fa fa-file-pdf-o"></i> <a href="https://arxiv.org/pdf/2407.08968" target="_blank">PDF</a>
-                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuMICCAI2024Abs')">Abstract</a> &nbsp;
-                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuMICCAI2024Bib')">BibTeX</a> &nbsp;
-                  <i class="fa fa-github"></i> <a href="https://github.com/HFUT-miaLab/SlideGCD" target="_blank">Code</a>
-              </p>
-              <p id="ShuMICCAI2024Abs" class="abstract" style="display: none;">
-                Existing WSI analysis methods lie on the consensus that histopathological characteristics of tumors are significant guidance for cancer diagnostics. Particularly, as the evolution of cancers is a continuous process, the correlations and differences across various stages, anatomical locations and patients should be taken into account. However, recent research mainly focuses on the inner-contextual information in a single WSI, ignoring the correlations between slides. To verify whether introducing the slide inter-correlations can bring improvements to WSI representation learning, we propose a generic WSI analysis pipeline SlideGCD that considers the existing multi-instance learning (MIL) methods as the backbone and forge the WSI classification task as a node classification problem. More specifically, SlideGCD declares a node buffer that stores previous slide embeddings for subsequent extensive slide-based graph construction and conducts graph learning to explore the inter-correlations implied in the slide-based graph. Moreover, we frame the MIL classifier and graph learning into two parallel workflows and deploy the knowledge distillation to transfer the differentiable information to the graph neural network. The consistent performance boosting, brought by SlideGCD, of four previous state-of-the-art MIL methods is observed on two TCGA benchmark datasets.
-              </p>
-              <pre xml:space="preserve" id="ShuMICCAI2024Bib" class="bibtex" style="display: none;">
-@article{shu2024slidegcd,
-  title     = {SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification}, 
-  author    = {Tong Shu and Jun Shi and Dongdong Sun and Zhiguo Jiang and Yushan Zheng},
-  booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
-  year      = {2024},
-}
-              </pre>
-              <script language="javascript" type="text/javascript" xml:space="preserve">
-                hideblock('ShuMICCAI2024Abs');
-                hideblock('ShuMICCAI2024Bib');
-              </script>
-              </td>
-          </tr> <!-- Paper End Here -->
-            <tr> <!-- An Paper -->
-              <td width="22%" valign="top"><p>
-                <img src="images/src/article_shi_cmpb_2024.jpg" alt="Result" width="200">
-              </p></td>
-              <td width="78%" valign="top">
-              <p>
-                  <b>Masked hypergraph learning for weakly supervised histopathology whole slide image classification</b> <a href="https://www.sciencedirect.com/science/article/pii/S0169260724002323" target="_blank"><i class="fa fa-external-link"></i></a>
-                  <br>
-                  <font size="3pt" face="Georgia"><i>
-                      Jun Shi, <b>Tong Shu</b>, Kun Wu, Zhiguo Jiang, Liping Zheng, Wei Wang, Haibo Wu, and Yushan Zheng*</a>
-                  </i></font>
-                  <br>
-                   Computer Methods and Programs in Biomedicine, 2024
-                  <br>
-                  <!-- <i class="fa fa-file-pdf-o"></i> <a href="" target="_blank">PDF</a> -->
-                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShiCMPB2024Abs')">Abstract</a> &nbsp;
-                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShiCMPB2024Bib')">BibTeX</a> &nbsp;
-                  <i class="fa fa-github"></i> <a href="https://github.com/HFUT-miaLab/MaskHGL" target="_blank">Code</a>
-              </p>
-              <p id="ShiCMPB2024Abs" class="abstract" style="display: none;">
-                <b>Background and objective</b><br>
-                Graph neural network (GNN) has been extensively used in histopathology whole slide image (WSI) analysis due to the efficiency and flexibility in modelling relationships among entities. However, most existing GNN-based WSI analysis methods only consider the pairwise correlation of patches from one single perspective (e.g. spatial affinity or embedding similarity) yet ignore the intrinsic non-pairwise relationships present in gigapixel WSI, which are likely to contribute to feature learning and downstream tasks. The objective of this study is therefore to explore the non-pairwise relationships in histopathology WSI and exploit them to guide the learning of slide-level representations for better classification performance.
-                <br><br>
-                <b>Methods</b><br>
-                In this paper, we propose a novel Masked HyperGraph Learning (MaskHGL) framework for weakly supervised histopathology WSI classification. Compared with most GNN-based WSI classification methods, MaskHGL exploits the non-pairwise correlations between patches with hypergraph and global message passing conducted by hypergraph convolution. Concretely, multi-perspective hypergraphs are first built for each WSI, then hypergraph attention is introduced into the jointed hypergraph to propagate the non-pairwise relationships and thus yield more discriminative node representation. More importantly, a masked hypergraph reconstruction module is devised to guide the hypergraph learning which can generate more powerful robustness and generalization than the method only using hypergraph modelling. Additionally, a self-attention-based node aggregator is also applied to explore the global correlation of patches in WSI and produce the slide-level representation for classification.
-                <br><br>
-                <b>Results</b><br>
-                The proposed method is evaluated on two public TCGA benchmark datasets and one in-house dataset. On the public TCGA-LUNG (1494 WSIs) and TCGA-EGFR (696 WSIs) test set, the area under receiver operating characteristic (ROC) curve (AUC) were 0.9752±0.0024 and 0.7421±0.0380, respectively. On the USTC-EGFR (754 WSIs) dataset, MaskHGL achieved significantly better performance with an AUC of 0.8745±0.0100, which surpassed the second-best state-of-the-art method SlideGraph+ 2.64%.
-                <br><br>
-                <b>Conclusions</b><br>
-                askHGL shows a great improvement, brought by considering the intrinsic non-pairwise relationships within WSI, in multiple downstream WSI classification tasks. In particular, the designed masked hypergraph reconstruction module promisingly alleviates the data scarcity and greatly enhances the robustness and classification ability of our MaskHGL. Notably, it has shown great potential in cancer subtyping and fine-grained lung cancer gene mutation prediction from hematoxylin and eosin (H&E) stained WSIs.
-                <br><br>
-              </p>
-              <pre xml:space="preserve" id="ShiCMPB2024Bib" class="bibtex" style="display: none;">
-@article{SHI2024108237,
-  title = {Masked hypergraph learning for weakly supervised histopathology whole slide image classification},
-  journal = {Computer Methods and Programs in Biomedicine},
-  pages = {108237},
-  year = {2024},
-  doi = {https://doi.org/10.1016/j.cmpb.2024.108237},
-  author = {Jun Shi and Tong Shu and Kun Wu and Zhiguo Jiang and Liping Zheng and Wei Wang and Haibo Wu and Yushan Zheng},
-}
-              </pre>
-              <script language="javascript" type="text/javascript" xml:space="preserve">
-                hideblock('ShiCMPB2024Abs');
-                hideblock('ShiCMPB2024Bib');
-              </script>
-              </td>
-          </tr> <!-- Paper End Here -->
-          <tr><td> <h3>2023</h3> </td></tr>
-            <tr> <!-- An Paper -->
-              <td width="22%" valign="top"><p>
-                <img src="images/src/article_shu_embs_2023.gif" alt="Result" width="200">
-              </p></td>
-              <td width="78%" valign="top">
-              <p>
-                  <b>A Key-Points Based Anchor-Free Cervical Cell Detector
-                    </b> <a href="https://ieeexplore.ieee.org/abstract/document/10341092" target="_blank"><i class="fa fa-external-link"></i></a>
-                  <br>
-                  <font size="3pt" face="Georgia"><i>
-                    <b>Tong Shu</b>, Jun Shi*, Yushan Zheng*, Zhiguo Jiang, and Lanlan Yu
-                  </i></font>
-                  <br>
-                   IEEE Engineering in Medicine & Biology Society (EMBC), 2023 
-                  <br>
-                  <!-- <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_tmi_2023.pdf" target="_blank">PDF</a> -->
-                  <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuEMBS2023Abs')">Abstract</a> &nbsp;
-                  <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuEMBS2023Bib')">BibTeX</a> &nbsp;
-                  <!-- <i class="fa fa-github"></i> <a href="https://github.com/WkEEn/PAMA" target="_blank">Code</a> -->
-              </p>
-              <p id="ShuEMBS2023Abs" class="abstract" style="display: none;">
-                Cervical cell detection is crucial to cervical cytology screening at early stage. Currently most cervical cell detection methods use anchor-based pipeline to achieve the localization and classification of cells, e.g. faster R-CNN and YOLOv3. However, the anchors generally need to be pre-defined before training and the detection performance is inevitably sensitive to these pre-defined hyperparameters (e.g. number of anchors, anchor size and aspect ratios). More importantly, these preset anchors fail to conform to the cells with different morphology at inference phase. In this paper, we present a key-points based anchor-free cervical cell detector based on YOLOv3. Compared with the conventional YOLOv3, the proposed method applies a key-points based anchor-free strategy to represent the cells in the initial prediction phase instead of the preset anchors. Therefore, it can generate more desirable cell localization effect through refinement. Furthermore, PAFPN is applied to enhance the feature hierarchy. GIoU loss is also introduced to optimize the small cell localization in addition to focal loss and smooth L1 loss. Experimental results on cervical cytology ROI datasets demonstrate the effectiveness of our method for cervical cell detection and the robustness to different liquid-based preparation styles (i.e. drop-slide, membrane-based and sedimentation).
-              </p>
-              <pre xml:space="preserve" id="ShuEMBS2023Bib" class="bibtex" style="display: none;">
-  @InProceedings{shu2023a,
-    author    = {Tong Shu, Jun Shi, Yushan Zheng, Zhiguo Jiang, Lanlan Yu},
-    title     = {A Key-Points Based Anchor-Free Cervical Cell Detector},
-    booktitle = {2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)},
-    year      = {2023},
-    pages     = {1-5},
-    doi       = {10.1109/EMBC40787.2023.10341092}},
-  }
-              </pre>
-              <script language="javascript" type="text/javascript" xml:space="preserve">
-                hideblock('ShuEMBS2023Abs');
-                hideblock('ShuEMBS2023Bib');
-              </script>
-              </td>
+                <td width="22%" valign="top"><p>
+                    <img src="images/src/article_shu_miccai_2024.png" alt="Result" width="200">
+                </p></td>
+                <td width="78%" valign="top">
+                    <p>
+                        <b>SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification</b> <a href="https://arxiv.org/abs/2407.08968" target="_blank"><i class="fa fa-external-link"></i></a>
+                        <br>
+                        <font size="3pt" face="Georgia"><i>
+                            <b>Tong Shu</b>, Jun Shi, Dongdong Sun, Zhiguo Jiang, and Yushan Zheng*</a>
+                        </i></font>
+                        <br>Medical Image Computing and Computer Assisted Intervention (MICCAI), 2024<br>
+                        <i class="fa fa-file-pdf-o"></i> <a href="https://arxiv.org/pdf/2407.08968" target="_blank">PDF</a>
+                        <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuMICCAI2024Abs')">Abstract</a> &nbsp;
+                        <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuMICCAI2024Bib')">BibTeX</a> &nbsp;
+                        <i class="fa fa-github"></i> <a href="https://github.com/HFUT-miaLab/SlideGCD" target="_blank">Code</a>
+                    </p>
+                    <p id="ShuMICCAI2024Abs" class="abstract" style="display: none;">
+                        Existing WSI analysis methods lie on the consensus that histopathological characteristics of tumors are significant guidance for cancer diagnostics. Particularly, as the evolution of cancers is a continuous process, the correlations and differences across various stages, anatomical locations and patients should be taken into account. However, recent research mainly focuses on the inner-contextual information in a single WSI, ignoring the correlations between slides. To verify whether introducing the slide inter-correlations can bring improvements to WSI representation learning, we propose a generic WSI analysis pipeline SlideGCD that considers the existing multi-instance learning (MIL) methods as the backbone and forge the WSI classification task as a node classification problem. More specifically, SlideGCD declares a node buffer that stores previous slide embeddings for subsequent extensive slide-based graph construction and conducts graph learning to explore the inter-correlations implied in the slide-based graph. Moreover, we frame the MIL classifier and graph learning into two parallel workflows and deploy the knowledge distillation to transfer the differentiable information to the graph neural network. The consistent performance boosting, brought by SlideGCD, of four previous state-of-the-art MIL methods is observed on two TCGA benchmark datasets.
+                    </p>
+                    <pre xml:space="preserve" id="ShuMICCAI2024Bib" class="bibtex" style="display: none;">
+                        @article{shu2024slidegcd,
+                        title     = {SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification},
+                        author    = {Tong Shu and Jun Shi and Dongdong Sun and Zhiguo Jiang and Yushan Zheng},
+                        booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+                        year      = {2024},
+                        }
+                    </pre>
+                    <script language="javascript" type="text/javascript" xml:space="preserve">
+                        hideblock('ShuMICCAI2024Abs');
+                        hideblock('ShuMICCAI2024Bib');
+                    </script>
+                </td>
             </tr> <!-- Paper End Here -->
-        <tr><td height="200px"></td></tr>
-      <!-- Content End -->
+            <tr> <!-- An Paper -->
+                <td width="22%" valign="top"><p>
+                    <img src="images/src/article_shi_cmpb_2024.jpg" alt="Result" width="200">
+                </p></td>
+                <td width="78%" valign="top">
+                    <p>
+                        <b>Masked hypergraph learning for weakly supervised histopathology whole slide image classification</b> <a href="https://www.sciencedirect.com/science/article/pii/S0169260724002323" target="_blank"><i class="fa fa-external-link"></i></a>
+                        <br>
+                        <font size="3pt" face="Georgia"><i>
+                            Jun Shi, <b>Tong Shu</b>, Kun Wu, Zhiguo Jiang, Liping Zheng, Wei Wang, Haibo Wu, and Yushan Zheng*</a>
+                        </i></font>
+                        <br>
+                        Computer Methods and Programs in Biomedicine, 2024
+                        <br>
+                        <!-- <i class="fa fa-file-pdf-o"></i> <a href="" target="_blank">PDF</a> -->
+                        <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShiCMPB2024Abs')">Abstract</a> &nbsp;
+                        <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShiCMPB2024Bib')">BibTeX</a> &nbsp;
+                        <i class="fa fa-github"></i> <a href="https://github.com/HFUT-miaLab/MaskHGL" target="_blank">Code</a>
+                    </p>
+                    <p id="ShiCMPB2024Abs" class="abstract" style="display: none;">
+                        <b>Background and objective</b><br>
+                        Graph neural network (GNN) has been extensively used in histopathology whole slide image (WSI) analysis due to the efficiency and flexibility in modelling relationships among entities. However, most existing GNN-based WSI analysis methods only consider the pairwise correlation of patches from one single perspective (e.g. spatial affinity or embedding similarity) yet ignore the intrinsic non-pairwise relationships present in gigapixel WSI, which are likely to contribute to feature learning and downstream tasks. The objective of this study is therefore to explore the non-pairwise relationships in histopathology WSI and exploit them to guide the learning of slide-level representations for better classification performance.
+                        <br><br>
+                        <b>Methods</b><br>
+                        In this paper, we propose a novel Masked HyperGraph Learning (MaskHGL) framework for weakly supervised histopathology WSI classification. Compared with most GNN-based WSI classification methods, MaskHGL exploits the non-pairwise correlations between patches with hypergraph and global message passing conducted by hypergraph convolution. Concretely, multi-perspective hypergraphs are first built for each WSI, then hypergraph attention is introduced into the jointed hypergraph to propagate the non-pairwise relationships and thus yield more discriminative node representation. More importantly, a masked hypergraph reconstruction module is devised to guide the hypergraph learning which can generate more powerful robustness and generalization than the method only using hypergraph modelling. Additionally, a self-attention-based node aggregator is also applied to explore the global correlation of patches in WSI and produce the slide-level representation for classification.
+                        <br><br>
+                        <b>Results</b><br>
+                        The proposed method is evaluated on two public TCGA benchmark datasets and one in-house dataset. On the public TCGA-LUNG (1494 WSIs) and TCGA-EGFR (696 WSIs) test set, the area under receiver operating characteristic (ROC) curve (AUC) were 0.9752±0.0024 and 0.7421±0.0380, respectively. On the USTC-EGFR (754 WSIs) dataset, MaskHGL achieved significantly better performance with an AUC of 0.8745±0.0100, which surpassed the second-best state-of-the-art method SlideGraph+ 2.64%.
+                        <br><br>
+                        <b>Conclusions</b><br>
+                        MaskHGL shows a great improvement, brought by considering the intrinsic non-pairwise relationships within WSI, in multiple downstream WSI classification tasks. In particular, the designed masked hypergraph reconstruction module promisingly alleviates the data scarcity and greatly enhances the robustness and classification ability of our MaskHGL. Notably, it has shown great potential in cancer subtyping and fine-grained lung cancer gene mutation prediction from hematoxylin and eosin (H&E) stained WSIs.
+                        <br><br>
+                    </p>
+                    <pre xml:space="preserve" id="ShiCMPB2024Bib" class="bibtex" style="display: none;">
+                        @article{SHI2024108237,
+                        title = {Masked hypergraph learning for weakly supervised histopathology whole slide image classification},
+                        journal = {Computer Methods and Programs in Biomedicine},
+                        pages = {108237},
+                        year = {2024},
+                        doi = {https://doi.org/10.1016/j.cmpb.2024.108237},
+                        author = {Jun Shi and Tong Shu and Kun Wu and Zhiguo Jiang and Liping Zheng and Wei Wang and Haibo Wu and Yushan Zheng},
+                        }
+                    </pre>
+                    <script language="javascript" type="text/javascript" xml:space="preserve">
+                        hideblock('ShiCMPB2024Abs');
+                        hideblock('ShiCMPB2024Bib');
+                    </script>
+                </td>
+            </tr> <!-- Paper End Here -->
+
+            <tr><td> <h3>2023</h3> </td></tr>
+                <tr> <!-- An Paper -->
+                  <td width="22%" valign="top"><p>
+                    <img src="images/src/article_shu_embs_2023.gif" alt="Result" width="200">
+                  </p></td>
+                  <td width="78%" valign="top">
+                  <p>
+                      <b>A Key-Points Based Anchor-Free Cervical Cell Detector
+                        </b> <a href="https://ieeexplore.ieee.org/abstract/document/10341092" target="_blank"><i class="fa fa-external-link"></i></a>
+                      <br>
+                      <font size="3pt" face="Georgia"><i>
+                        <b>Tong Shu</b>, Jun Shi*, Yushan Zheng*, Zhiguo Jiang, and Lanlan Yu
+                      </i></font>
+                      <br>
+                       IEEE Engineering in Medicine & Biology Society (EMBC), 2023
+                      <br>
+                      <!-- <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_tmi_2023.pdf" target="_blank">PDF</a> -->
+                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuEMBS2023Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuEMBS2023Bib')">BibTeX</a> &nbsp;
+                      <!-- <i class="fa fa-github"></i> <a href="https://github.com/WkEEn/PAMA" target="_blank">Code</a> -->
+                  </p>
+                  <p id="ShuEMBS2023Abs" class="abstract" style="display: none;">
+                    Cervical cell detection is crucial to cervical cytology screening at early stage. Currently most cervical cell detection methods use anchor-based pipeline to achieve the localization and classification of cells, e.g. faster R-CNN and YOLOv3. However, the anchors generally need to be pre-defined before training and the detection performance is inevitably sensitive to these pre-defined hyperparameters (e.g. number of anchors, anchor size and aspect ratios). More importantly, these preset anchors fail to conform to the cells with different morphology at inference phase. In this paper, we present a key-points based anchor-free cervical cell detector based on YOLOv3. Compared with the conventional YOLOv3, the proposed method applies a key-points based anchor-free strategy to represent the cells in the initial prediction phase instead of the preset anchors. Therefore, it can generate more desirable cell localization effect through refinement. Furthermore, PAFPN is applied to enhance the feature hierarchy. GIoU loss is also introduced to optimize the small cell localization in addition to focal loss and smooth L1 loss. Experimental results on cervical cytology ROI datasets demonstrate the effectiveness of our method for cervical cell detection and the robustness to different liquid-based preparation styles (i.e. drop-slide, membrane-based and sedimentation).
+                  </p>
+                  <pre xml:space="preserve" id="ShuEMBS2023Bib" class="bibtex" style="display: none;">
+                      @InProceedings{shu2023a,
+                        author    = {Tong Shu, Jun Shi, Yushan Zheng, Zhiguo Jiang, Lanlan Yu},
+                        title     = {A Key-Points Based Anchor-Free Cervical Cell Detector},
+                        booktitle = {2023 45th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)},
+                        year      = {2023},
+                        pages     = {1-5},
+                        doi       = {10.1109/EMBC40787.2023.10341092}},
+                      }
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                    hideblock('ShuEMBS2023Abs');
+                    hideblock('ShuEMBS2023Bib');
+                  </script>
+                  </td>
+                </tr> <!-- Paper End Here -->
+
+            <tr><td height="50px"></td></tr>
+            <tr><td><h2>Manuscripts</h2></td></tr>
+            <tr><td> <h3>2024</h3> </td></tr>
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                      <img src="images/src/article_shi_TMI_2024.jpg" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+                  <p>
+                      <b>Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis</b> <a href="https://arxiv.org/abs/2410.10260" target="_blank"><i class="fa fa-external-link"></i></a>
+                      <br>
+                      <font size="3pt" face="Georgia"><i>
+                          Jun Shi, <b>Tong Shu</b>, Zhiguo Jiang, Wei Wang, Haibo Wu, Yushan Zheng*
+                      </i></font>
+                      <br>Submitted to IEEE Transactions on Medical Imaging (TMI)<br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="https://arxiv.org/pdf/2410.10260" target="_blank">PDF</a>
+                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuTMI2024Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuTMI2024Bib')">BibTeX</a> &nbsp;
+                  </p>
+                  <p id="ShuTMI2024Abs" class="abstract" style="display: none;">
+                      The development of computational pathology lies in the consensus that pathological characteristics of tumors are significant guidance for cancer diagnostics. Most existing research focuses on the inner-contextual information within each WSI yet ignores the possible inter-correlations between slides. As the development of tumors is a continuous process involving a series of histological, morphological, and genetic changes that accumulate over time, the similarities and differences between WSIs across various stages, grades, locations and patients should potentially contribute to the representation of WSIs and deserve to be taken into account in WSI modeling. To verify the advancement of introducing the slide inter-correlations into the representation learning of WSIs, we proposed a generic WSI analysis pipeline SlideGCD that can be adapted to any existing Multiple Instance Learning (MIL) frameworks and improve their performance. With the new paradigm, the prior knowledge of cancer development can participate in the end-to-end workflow, which concurrently initializes and refines the slide representation, as a guide for message passing in the slide-based graph. Extensive comparisons and experiments are conducted to validate the effectiveness and robustness of the proposed pipeline across 4 different tasks, including cancer subtyping, cancer staging, survival prediction, and gene mutation prediction, with 7 representative SOTA WSI analysis frameworks as backbones.
+                  </p>
+                  <pre xml:space="preserve" id="ShuTMI2024Bib" class="bibtex" style="display: none;">
+                      @article{shi2024slide,
+                      title={Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis},
+                      author={Shi, Jun and Shu, Tong and Jiang, Zhiguo and Wang, Wei and Wu, Haibo and Zheng, Yushan},
+                      journal={arXiv preprint arXiv:2410.10260},
+                      year={2024}
+                      }
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                      hideblock('ShuMICCAI2024Abs');
+                      hideblock('ShuMICCAI2024Bib');
+                  </script>
+              </td>
+          </tr> <!-- Paper End Here -->
+            <tr><td height="50px"></td></tr>
+            </tbody></table><!-- Publications End -->
+        </td></tr>
       </tbody></table>
     </td></tr></tbody></table>
-    </tr></tr></tbody></table>
+
 
     <!-- Footer at Bottom -->
     <footer class="footer">
@@ -239,7 +276,7 @@
 
     <!-- Java Script-->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="scripts/togglehide.js"></script>
-
+      <script type="text/javascript" src="scripts/togglehide.js"></script>
+    </tbody></table>
   </body>
 </html>
