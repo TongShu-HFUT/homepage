@@ -19,14 +19,13 @@
     <table width="80%" cellspacing="0" cellpadding="20" border="0" align="center"><tbody><tr><td width="78%">
       <table><tbody>
       <!-- Content Begin -->
-
         <!-- Bio -->
         <tr><td>
           <table><tbody><tr>
             <td width="70%">
               <p class="nametitle"><b>Tong Shu</b></p>
               <div style="margin-left:10px"><!-- Name -->
-                <b>束童</b> &nbsp; <i class="fa fa-graduation-cap"></i> M.Sc candidate
+                <b>束童</b> &nbsp; <i class="fa fa-graduation-cap"></i> M.Sc
               </div>
               <p style="text-align:justify"><!-- CV -->
                 <!-- <i class="fa fa-university" aria-hidden="true"></i> Affiliated Institution<br> -->
@@ -43,7 +42,7 @@
                 <i class="fa fa-envelope-o"></i> Email: <a href="mailto:t.shu@mail.hfut.edu.cn">t.shu@mail.hfut.edu.cn</a><br>
                 <i class="fa fa-github"></i> Github: <a href="https://github.com/TongShu-HFUT" target="_blank">github.com/TongShu-HFUT</a><br>
                 <i class="fa-brands fa-orcid" aria-hidden="true"></i> ORCID: <a href="https://orcid.org/0009-0005-2820-3875" target="_blank">0009-0005-2820-3875</a><br>
-				<i class="fa fa-file-pdf-o"></i> CV: <a href="pdf/TongShu_CV_202411.pdf" target="_blank"> Curriculum Vitae </a>
+				<i class="fa fa-file-pdf-o"></i> CV: <a href="pdf/CurriculumVitae-202602.pdf" target="_blank"> Curriculum Vitae </a>
               </p>
                 </a>
               </p>
@@ -70,7 +69,7 @@
                   <img src="images/src/graph in wsi.png" alt="Histopathology image analysis" width="300">
                 </p></td>
                 <td width="60%" valign="top">
-                  <h3>Graph / hypergraph in pathological whole slide image analysis, 2022-present</h3>
+                  <h3>Graph / hypergraph in pathological whole slide image analysis, 2022-2025</h3>
                   <p>Graph and graph neural networks (GNN) have been extensively used in many research due to their efficiency and flexibility in modeling relationships among entities. However, in pathological whole slide image analysis, it is evident that the potential of the image has not been fully unleashed yet. I am dedicated to developing computer-aided diagnostic algorithms that are highly interpretable even in situations where data is limited, based on graphs and their various variants.
                   </i></p>
                 </td>
@@ -98,6 +97,47 @@
         <tr><td> <h2>Publications</h2> </td></tr>
         <tr><td> <!-- ALL Paper Begin Here -->
             <table class="group_tab"><tbody>
+            <tr><td> <h3>2025</h3> </td></tr>
+            <tr> <!-- An Paper -->
+              <td width="22%" valign="top"><p>
+                      <img src="images/src/article_shi_TMI_2025.jpg" alt="Result" width="200">
+              </p></td>
+              <td width="78%" valign="top">
+                  <p>
+                      <b>Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis</b> <a href="https://ieeexplore.ieee.org/abstract/document/11007022" target="_blank"><i class="fa fa-external-link"></i></a>
+                      <br>
+                      <font size="3pt" face="Georgia"><i>
+                          Jun Shi, <b>Tong Shu</b>, Zhiguo Jiang, Wei Wang, Haibo Wu, Yushan Zheng*
+                      </i></font>
+                      <br>IEEE Transactions on Medical Imaging (TMI), 2025<br>
+                      <i class="fa fa-file-pdf-o"></i> <a href="pdf/TMI-paper.pdf" target="_blank">PDF</a>
+                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuTMI2025Abs')">Abstract</a> &nbsp;
+                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuTMI2025Bib')">BibTeX</a>
+                      <i class="fa fa-github"></i> <a href="https://github.com/HFUT-miaLab/SlideGCD" target="_blank">Code</a>
+                  </p>
+                  <p id="ShuTMI2025Abs" class="abstract" style="display: none;">
+                      The development of computational pathology lies in the consensus that pathological characteristics of tumors are significant guidance for cancer diagnostics. Most existing research focuses on the inner-contextual information within each WSI yet ignores the possible inter-correlations between slides. As the development of tumors is a continuous process involving a series of histological, morphological, and genetic changes that accumulate over time, the similarities and differences between WSIs across various stages, grades, locations and patients should potentially contribute to the representation of WSIs and deserve to be taken into account in WSI modeling. To verify the advancement of introducing the slide inter-correlations into the representation learning of WSIs, we proposed a generic WSI analysis pipeline SlideGCD that can be adapted to any existing Multiple Instance Learning (MIL) frameworks and improve their performance. With the new paradigm, the prior knowledge of cancer development can participate in the end-to-end workflow, which concurrently initializes and refines the slide representation, as a guide for message passing in the slide-based graph. Extensive comparisons and experiments are conducted to validate the effectiveness and robustness of the proposed pipeline across 4 different tasks, including cancer subtyping, cancer staging, survival prediction, and gene mutation prediction, with 7 representative SOTA WSI analysis frameworks as backbones.
+                  </p>
+                  <pre xml:space="preserve" id="ShuTMI2025Bib" class="bibtex" style="display: none;">
+                      @ARTICLE{11007022,
+                      author={Shi, Jun and Shu, Tong and Jiang, Zhiguo and Wang, Wei and Wu, Haibo and Zheng, Yushan},
+                      journal={IEEE Transactions on Medical Imaging},
+                      title={Slide-Based Graph Collaborative Training for Histopathology Whole Slide Image Analysis},
+                      year={2025},
+                      volume={44},
+                      number={11},
+                      pages={4267-4280},
+                      keywords={Cancer;Training;Medical diagnostic imaging;Artificial intelligence;Correlation;Tumors;Transformers;Message passing;Collaboration;Representation learning;Computer-aided diagnosis;computational pathology;graph learning;whole slide image classification},
+                      doi={10.1109/TMI.2025.3571152}}
+                  </pre>
+                  <script language="javascript" type="text/javascript" xml:space="preserve">
+                      hideblock('ShuTMI2025Abs');
+                      hideblock('ShuTMI2025Bib');
+                  </script>
+              </td>
+          </tr> <!-- Paper End Here -->
+
+
             <tr><td> <h3>2024</h3> </td></tr>
             <tr> <!-- An Paper -->
                 <td width="22%" valign="top"><p>
@@ -105,7 +145,7 @@
                 </p></td>
                 <td width="78%" valign="top">
                     <p>
-                        <b>SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification</b> <a href="https://arxiv.org/abs/2407.08968" target="_blank"><i class="fa fa-external-link"></i></a>
+                        <b>SlideGCD: Slide-based Graph Collaborative Training with Knowledge Distillation for Whole Slide Image Classification</b> <a href="https://link.springer.com/chapter/10.1007/978-3-031-72083-3_44" target="_blank"><i class="fa fa-external-link"></i></a>
                         <br>
                         <font size="3pt" face="Georgia"><i>
                             <b>Tong Shu</b>, Jun Shi, Dongdong Sun, Zhiguo Jiang, and Yushan Zheng*</a>
@@ -139,7 +179,7 @@
                 </p></td>
                 <td width="78%" valign="top">
                     <p>
-                        <b>Masked hypergraph learning for weakly supervised histopathology whole slide image classification</b> <a href="https://www.sciencedirect.com/science/article/pii/S0169260724002323" target="_blank"><i class="fa fa-external-link"></i></a>
+                        <b>Masked hypergraph learning for weakly supervised histopathology whole slide image classification</b> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169260724002323" target="_blank"><i class="fa fa-external-link"></i></a>
                         <br>
                         <font size="3pt" face="Georgia"><i>
                             Jun Shi, <b>Tong Shu</b>, Kun Wu, Zhiguo Jiang, Liping Zheng, Wei Wang, Haibo Wu, and Yushan Zheng*</a>
@@ -147,7 +187,7 @@
                         <br>
                         Computer Methods and Programs in Biomedicine, 2024
                         <br>
-                        <!-- <i class="fa fa-file-pdf-o"></i> <a href="" target="_blank">PDF</a> -->
+                        <i class="fa fa-file-pdf-o"></i> <a href="pdf/CMPB-paper.pdf" target="_blank">PDF</a>
                         <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShiCMPB2024Abs')">Abstract</a> &nbsp;
                         <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShiCMPB2024Bib')">BibTeX</a> &nbsp;
                         <i class="fa fa-github"></i> <a href="https://github.com/HFUT-miaLab/MaskHGL" target="_blank">Code</a>
@@ -199,7 +239,7 @@
                       <br>
                        IEEE Engineering in Medicine & Biology Society (EMBC), 2023
                       <br>
-                      <!-- <i class="fa fa-file-pdf-o"></i> <a href="pdf/article_zheng_tmi_2023.pdf" target="_blank">PDF</a> -->
+                       <i class="fa fa-file-pdf-o"></i> <a href="pdf/EMBC-paper.pdf" target="_blank">PDF</a>
                       <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuEMBS2023Abs')">Abstract</a> &nbsp;
                       <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuEMBS2023Bib')">BibTeX</a> &nbsp;
                       <!-- <i class="fa fa-github"></i> <a href="https://github.com/WkEEn/PAMA" target="_blank">Code</a> -->
@@ -224,42 +264,42 @@
                   </td>
                 </tr> <!-- Paper End Here -->
 
-            <tr><td height="50px"></td></tr>
-            <tr><td><h2>Manuscripts</h2></td></tr>
-            <tr><td> <h3>2024</h3> </td></tr>
-            <tr> <!-- An Paper -->
-              <td width="22%" valign="top"><p>
-                      <img src="images/src/article_shi_TMI_2024.jpg" alt="Result" width="200">
-              </p></td>
-              <td width="78%" valign="top">
-                  <p>
-                      <b>Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis</b> <a href="https://arxiv.org/abs/2410.10260" target="_blank"><i class="fa fa-external-link"></i></a>
-                      <br>
-                      <font size="3pt" face="Georgia"><i>
-                          Jun Shi, <b>Tong Shu</b>, Zhiguo Jiang, Wei Wang, Haibo Wu, Yushan Zheng*
-                      </i></font>
-                      <br>Submitted to IEEE Transactions on Medical Imaging (TMI)<br>
-                      <i class="fa fa-file-pdf-o"></i> <a href="https://arxiv.org/pdf/2410.10260" target="_blank">PDF</a>
-                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuTMI2024Abs')">Abstract</a> &nbsp;
-                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuTMI2024Bib')">BibTeX</a> &nbsp;
-                  </p>
-                  <p id="ShuTMI2024Abs" class="abstract" style="display: none;">
-                      The development of computational pathology lies in the consensus that pathological characteristics of tumors are significant guidance for cancer diagnostics. Most existing research focuses on the inner-contextual information within each WSI yet ignores the possible inter-correlations between slides. As the development of tumors is a continuous process involving a series of histological, morphological, and genetic changes that accumulate over time, the similarities and differences between WSIs across various stages, grades, locations and patients should potentially contribute to the representation of WSIs and deserve to be taken into account in WSI modeling. To verify the advancement of introducing the slide inter-correlations into the representation learning of WSIs, we proposed a generic WSI analysis pipeline SlideGCD that can be adapted to any existing Multiple Instance Learning (MIL) frameworks and improve their performance. With the new paradigm, the prior knowledge of cancer development can participate in the end-to-end workflow, which concurrently initializes and refines the slide representation, as a guide for message passing in the slide-based graph. Extensive comparisons and experiments are conducted to validate the effectiveness and robustness of the proposed pipeline across 4 different tasks, including cancer subtyping, cancer staging, survival prediction, and gene mutation prediction, with 7 representative SOTA WSI analysis frameworks as backbones.
-                  </p>
-                  <pre xml:space="preserve" id="ShuTMI2024Bib" class="bibtex" style="display: none;">
-                      @article{shi2024slide,
-                      title={Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis},
-                      author={Shi, Jun and Shu, Tong and Jiang, Zhiguo and Wang, Wei and Wu, Haibo and Zheng, Yushan},
-                      journal={arXiv preprint arXiv:2410.10260},
-                      year={2024}
-                      }
-                  </pre>
-                  <script language="javascript" type="text/javascript" xml:space="preserve">
-                      hideblock('ShuMICCAI2024Abs');
-                      hideblock('ShuMICCAI2024Bib');
-                  </script>
-              </td>
-          </tr> <!-- Paper End Here -->
+<!--            <tr><td height="50px"></td></tr>-->
+<!--            <tr><td><h2>Manuscripts</h2></td></tr>-->
+<!--            <tr><td> <h3>2024</h3> </td></tr>-->
+<!--            <tr> &lt;!&ndash; An Paper &ndash;&gt;-->
+<!--              <td width="22%" valign="top"><p>-->
+<!--                      <img src="images/src/article_shi_TMI_2024.jpg" alt="Result" width="200">-->
+<!--              </p></td>-->
+<!--              <td width="78%" valign="top">-->
+<!--                  <p>-->
+<!--                      <b>Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis</b> <a href="https://arxiv.org/abs/2410.10260" target="_blank"><i class="fa fa-external-link"></i></a>-->
+<!--                      <br>-->
+<!--                      <font size="3pt" face="Georgia"><i>-->
+<!--                          Jun Shi, <b>Tong Shu</b>, Zhiguo Jiang, Wei Wang, Haibo Wu, Yushan Zheng*-->
+<!--                      </i></font>-->
+<!--                      <br>Submitted to IEEE Transactions on Medical Imaging (TMI)<br>-->
+<!--                      <i class="fa fa-file-pdf-o"></i> <a href="https://arxiv.org/pdf/2410.10260" target="_blank">PDF</a>-->
+<!--                      <i class="fa fa-bookmark-o"></i> <a href="javascript:toggleblock('ShuTMI2024Abs')">Abstract</a> &nbsp;-->
+<!--                      <i class="fa fa-quote-left"></i> <a href="javascript:toggleblock('ShuTMI2024Bib')">BibTeX</a> &nbsp;-->
+<!--                  </p>-->
+<!--                  <p id="ShuTMI2024Abs" class="abstract" style="display: none;">-->
+<!--                      The development of computational pathology lies in the consensus that pathological characteristics of tumors are significant guidance for cancer diagnostics. Most existing research focuses on the inner-contextual information within each WSI yet ignores the possible inter-correlations between slides. As the development of tumors is a continuous process involving a series of histological, morphological, and genetic changes that accumulate over time, the similarities and differences between WSIs across various stages, grades, locations and patients should potentially contribute to the representation of WSIs and deserve to be taken into account in WSI modeling. To verify the advancement of introducing the slide inter-correlations into the representation learning of WSIs, we proposed a generic WSI analysis pipeline SlideGCD that can be adapted to any existing Multiple Instance Learning (MIL) frameworks and improve their performance. With the new paradigm, the prior knowledge of cancer development can participate in the end-to-end workflow, which concurrently initializes and refines the slide representation, as a guide for message passing in the slide-based graph. Extensive comparisons and experiments are conducted to validate the effectiveness and robustness of the proposed pipeline across 4 different tasks, including cancer subtyping, cancer staging, survival prediction, and gene mutation prediction, with 7 representative SOTA WSI analysis frameworks as backbones.-->
+<!--                  </p>-->
+<!--                  <pre xml:space="preserve" id="ShuTMI2024Bib" class="bibtex" style="display: none;">-->
+<!--                      @article{shi2024slide,-->
+<!--                      title={Slide-based Graph Collaborative Training for Histopathology Whole Slide Image Analysis},-->
+<!--                      author={Shi, Jun and Shu, Tong and Jiang, Zhiguo and Wang, Wei and Wu, Haibo and Zheng, Yushan},-->
+<!--                      journal={arXiv preprint arXiv:2410.10260},-->
+<!--                      year={2024}-->
+<!--                      }-->
+<!--                  </pre>-->
+<!--                  <script language="javascript" type="text/javascript" xml:space="preserve">-->
+<!--                      hideblock('ShuMICCAI2024Abs');-->
+<!--                      hideblock('ShuMICCAI2024Bib');-->
+<!--                  </script>-->
+<!--              </td>-->
+<!--          </tr> &lt;!&ndash; Paper End Here &ndash;&gt;-->
             <tr><td height="50px"></td></tr>
             </tbody></table><!-- Publications End -->
         </td></tr>
